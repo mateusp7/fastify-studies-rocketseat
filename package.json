@@ -5,7 +5,8 @@
   "module": "commonjs",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "knex": "node --import tsx ./node_modules/.bin/knex"
+    "knex": "node --import tsx ./node_modules/.bin/knex",
+    "test": "vitest"
   },
   "keywords": [],
   "author": "",
@@ -13,9 +14,12 @@
   "description": "",
   "devDependencies": {
     "@types/node": "^20.14.12",
+    "@types/supertest": "^6.0.2",
+    "supertest": "^7.0.0",
     "ts-node": "^10.9.2",
     "tsx": "^4.16.2",
-    "typescript": "^5.5.4"
+    "typescript": "^5.5.4",
+    "vitest": "^2.0.4"
   },
   "dependencies": {
     "@fastify/cookie": "^9.3.1",
