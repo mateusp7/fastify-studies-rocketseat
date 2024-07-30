@@ -1,4 +1,5 @@
 import { FastifyInstance } from "fastify";
+import crypto from "node:crypto";
 import { z } from "zod";
 import { knex } from "../database";
 import { checkSessionIdExists } from "../middlewares/check-session-id-exists";
