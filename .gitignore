@@ -1,5 +1,13 @@
+# Dependencies
 node_modules
-db/app.db
-my_annotations
+
+# Database
+db/*.db
+annotations.md
+
+# Environments
 .env
 .env.test
+
+# Buld
+build
